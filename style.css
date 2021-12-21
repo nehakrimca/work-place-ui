@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: url(img/photo-1532584615605-f4525a324e41.jpeg);
+  height: 100vh;
+  /* object-fit: fill; */
+  background-color: #747976;
+}
+.main-header {
+  margin-top: 8%;
+}
+.main-header h3 {
+  /* display: flex;
+justify-content: center;
+align-items: center; */
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+}
+
+.main-header h1 {
+  /* display: flex;
+justify-content: center;
+align-items: center; */
+  color: white;
+  margin: 14px 352px 0 7px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+.main-photo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  margin-top: 3rem;
+
+  /* background-color: #fff; */
+}
+
+.img-box img {
+  height: 35px;
+  width: 35px;
+  margin: 15px;
+  padding: 1rem;
+}
+.card-box {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  width: 200px;
+  margin-right: 2rem;
+  padding-bottom: 3rem;
+}
+.img-box {
+  background-color: rgb(168, 164, 164);
+  border-radius: 50%;
+}
+.text {
+  padding: 0;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: serif;
+  /* font-size: 1rem; */
+  letter-spacing: 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333333;
+  height: 250px;
+  color: #fff;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  background-color: #333333;
+  color: #fff;
+  /* word-break: normal; */
+}
+.link a {
+  color: rgb(206, 129, 121);
+}
+.link a:hover {
+  color: #fff;
+}
